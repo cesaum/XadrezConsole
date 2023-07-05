@@ -19,7 +19,7 @@
         {
             qteMovimentos++;
         }
-        public void DecrementarQteMovimento()
+        public void decrementarQteMovimento()
         {
             qteMovimentos--;
         }

@@ -49,7 +49,7 @@ namespace xadrez
             }
             else
             {
-                pos.definirValor(posicao.linha - 1, posicao.coluna);
+                pos.definirValor(posicao.linha + 1, posicao.coluna);
                 if (tab.posicaoValida(pos) && livre(pos))
                     mat[pos.linha, pos.coluna] = true;
 
